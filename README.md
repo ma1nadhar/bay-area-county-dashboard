@@ -3,7 +3,7 @@ Developed an Android and iOS COVID Dashboard to list the total COVID cases by ci
 
 **Main.js**     
 &emsp;&emsp;&emsp;- Uses Stack Navigator                                                                                                                      
-&emsp;&emsp;&emsp;- Stack Navigator provides a way for your app to transition between screens 
-&emsp;&emsp;&emsp;- Each new screen is placed on top of a stack                       
-&emsp;&emsp;&emsp;- Navigates between the Main COVID Dashboard Screen and other options
-&emsp;&emsp;&emsp;- Options include COVID Statistics, Symptom Survey Questions, Health Badge Report, Q&A Discussion            
+&emsp;&emsp;&emsp;- Stack Navigator provides a way for your app to transition between screens                                                                        
+&emsp;&emsp;&emsp;- Each new screen is placed on top of a stack                                                                                                   
+&emsp;&emsp;&emsp;- Navigates between the Main COVID Dashboard Screen and other options                                                                           
+&emsp;&emsp;&emsp;- Options include COVID Statistics, Symptom Survey Questions, Health Badge Report, Q&A Discussion                                                      
