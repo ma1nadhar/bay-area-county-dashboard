@@ -1,12 +1,15 @@
+// Main.js contains the navigation component of the application
+// Starts the appliation on the COVID Dashboard Page
+
+// imports
 import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
 const Stack = createStackNavigator();
-
 import { SafeAreaView, StyleSheet } from 'react-native';
 
+// import files for stack component
 import CityList from '../src/UI/CityList';
 import OptionList from '../src/UI/OptionList';
 import DetailList from '../src/UI/DetailList';
@@ -14,6 +17,9 @@ import SurveyQuestions from '../src/UI/SurveyQuestions';
 import HealthBadge from '../src/UI/HealthBadge';
 import HealthBadgeColor from '../src/UI/HealthBadgeColor';
 import HealthBadgeColorPos from '../src/UI/HealthBadgeColorPos';
+import ResultTracker from '../src/UI/ResultTracker';
+import Guidance from '../src/UI/Guidance';
+import Resources from '../src/UI/Resources';
 
 const Main = () => {
     return (
@@ -30,6 +36,9 @@ const Main = () => {
                     <Stack.Screen name="Health Badge" component={HealthBadge} />
                     <Stack.Screen name="Health Badge Negative" component={HealthBadgeColor} />
                     <Stack.Screen name="Health Badge Positive" component={HealthBadgeColorPos} />
+                    <Stack.Screen name="Result Tracker" component={ResultTracker} />
+                    <Stack.Screen name="Guidance" component={Guidance} />
+                    <Stack.Screen name="Resources" component={Resources} />
                 </Stack.Navigator>
             </NavigationContainer>
         </SafeAreaView>
