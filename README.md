@@ -6,7 +6,8 @@ Developed an Android and iOS COVID Dashboard to list the total COVID cases by ci
 &emsp;&emsp;&emsp;- Stack Navigator provides a way for your app to transition between screens                                                                        
 &emsp;&emsp;&emsp;- Each new screen is placed on top of a stack                                                                                                   
 &emsp;&emsp;&emsp;- Navigates between the Main COVID Dashboard Screen and other options                                                                           
-&emsp;&emsp;&emsp;- Options include COVID Statistics, Symptom Survey Questions, Health Badge Report, Q&A Discussion                                                      
+&emsp;&emsp;&emsp;- Options include COVID Statistics, Symptom Survey Questions, Health Badge Report, Q&A Discussion                                                    
+
 **CityList.js and CityCard.js and DetailList.js**     
 &emsp;&emsp;&emsp;- Uses the COVID-19 data for all the cities from Alameda County Open Data                                                                            
 &emsp;&emsp;&emsp;- Provides a list of all cities in Alameda County                                                                                                    
