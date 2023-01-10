@@ -1,6 +1,10 @@
+// SurveyQuestions.js is the screen where users take a symptom survey check
+// Once all questions are answered and submit btn is pressed, user is navigated to the previous screen
+
+// imports
 import React from 'react';
-import { StyleSheet, Text, View, Image, Button } from 'react-native';
-import { useState } from "react";
+import { StyleSheet, Text, View, Button } from 'react-native';
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
