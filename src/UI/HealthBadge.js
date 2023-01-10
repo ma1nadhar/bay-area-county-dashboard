@@ -1,3 +1,7 @@
+// HealthBadge.js containes the screen where a user shares there COVID-19 test result
+// Positive or Negative Button will navigate to the appropriate screen
+
+// imports
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 
