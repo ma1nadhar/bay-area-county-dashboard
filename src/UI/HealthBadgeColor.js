@@ -1,3 +1,6 @@
+// HealthBadgeColor.js displays a GREEN screen when the COVID-19 test result is NEGATIVE
+
+// imports
 import React from 'react';
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 
