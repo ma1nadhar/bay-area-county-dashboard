@@ -1,6 +1,11 @@
+// OptionList.js contains all the possible options on the Dashboard
+// User can access Covid Statistics, Daily Symptom Survey, Health Badge, Result Tracker, Guidance, and Resources
+
+// imports
 import React from 'react';
 import { TouchableWithoutFeedback, StyleSheet, Text, View, Image } from 'react-native';
 
+// styles for Options Dashboard
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -18,7 +23,6 @@ const styles = StyleSheet.create({
         margin: 10,
         justifyContent: 'center',
     },
-
     baseText: {
         fontWeight: 'bold',
         color: 'white',
@@ -32,11 +36,11 @@ const styles = StyleSheet.create({
     },
 });
 
+// click on an option and navigate to another screen
 const OptionList = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-
             <Image
                 style={styles.logo}
                 source={require('../../assets/bluecovid.jpg')}
@@ -51,7 +55,7 @@ const OptionList = ({ navigation }) => {
                 </TouchableWithoutFeedback>
 
             <TouchableWithoutFeedback
-                onPress={() => navigation.navigate('Survey Questions', { navigation })}>
+                onPress={() => navigation.navigate('Survey Questions', {})}>
   
                             <View style={styles.background}>
                                 <Text style={styles.baseText} >{"Daily Symptom Survey"}</Text>
@@ -59,7 +63,9 @@ const OptionList = ({ navigation }) => {
 
                 </TouchableWithoutFeedback>
 
-            <TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+
+                onPress={() => navigation.navigate('Result Tracker', {})}>
 
                 <View style={styles.background}>
                     <Text style={styles.baseText} >{"Result Tracker"}</Text>
@@ -67,7 +73,8 @@ const OptionList = ({ navigation }) => {
 
             </TouchableWithoutFeedback>
 
-            <TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+                onPress={() => navigation.navigate('Health Badge', {})}>
 
                 <View style={styles.background}>
                     <Text style={styles.baseText} >{"Health Badge"}</Text>
@@ -75,7 +82,8 @@ const OptionList = ({ navigation }) => {
 
             </TouchableWithoutFeedback>
 
-            <TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+                onPress={() => navigation.navigate('Guidance', {})}>
 
                 <View style={styles.background}>
                     <Text style={styles.baseText} >{"Guidance"}</Text>
@@ -83,7 +91,8 @@ const OptionList = ({ navigation }) => {
 
             </TouchableWithoutFeedback>
 
-            <TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+                onPress={() => navigation.navigate('Resources', {})}>
 
                 <View style={styles.background}>
                     <Text style={styles.baseText} >{"Resources"}</Text>
