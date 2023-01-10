@@ -20,4 +20,10 @@ Developed an Android and iOS COVID Dashboard to list the total COVID cases by ci
 &emsp;&emsp;&emsp;- Provides the most common questions regarding COVID-19                                                                                                 
 &emsp;&emsp;&emsp;- Resources.js screen which provides the COVID-19 resources                                                                                     
 &emsp;&emsp;&emsp;- SurveyQuestions.js screen where users take a symptom survey check                                                                           
-&emsp;&emsp;&emsp;- All questions are answered and submit btn is pressed, user is navigated to the previous screen                                                                    
+&emsp;&emsp;&emsp;- All questions are answered and submit btn is pressed, user is navigated to the previous screen       
+
+**HealthBadge.js and HealthBadgeColor.js and HealthBadgeColorPos.js**     
+&emsp;&emsp;&emsp;- Containes screen where a user shares there COVID-19 test result                                                                   
+&emsp;&emsp;&emsp;- Positive or Negative Button will navigate to the appropriate screen                                                                                   
+&emsp;&emsp;&emsp;- Displays a GREEN screen when the COVID-19 test result is NEGATIVE                                                                                   
+&emsp;&emsp;&emsp;- Displays a RED screen when the COVID-19 test result is POSITIVE                                                                          
