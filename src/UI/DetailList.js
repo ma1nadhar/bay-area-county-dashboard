@@ -1,3 +1,7 @@
+// DetailList.js provides all the COVID 19 details for a particular city
+// Provides total covid cases, age group most affected, and total deaths
+
+// imports
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
@@ -43,8 +47,10 @@ const DetailList = ({ route }) => {
 
 export default DetailList;
 
+// function to return the age group most affected based on Alameda County's JSON file
 function ageGroup(city) {
 
+    // push all age groups with covid cases numbers into an array
     let arrayAges = [];
 
     arrayAges.push(parseInt(city.F0_4), parseInt(city.F5_11), parseInt(city.F12_17), parseInt(city.F18_30), parseInt(city.F31_40),
@@ -52,6 +58,7 @@ function ageGroup(city) {
 
     let newArrayAges = [];
 
+    // loop through array and add values to new array if value is a valid number
     for (let i = 0; i < arrayAges.length; i++) {
         
         if (arrayAges[i] >= 0) {
@@ -60,6 +67,8 @@ function ageGroup(city) {
 
         }
     }
+
+    // identify the max value or number of covid cases
     var index = 0;
     let maxValue = Math.max.apply(Math, newArrayAges);
 
@@ -70,9 +79,8 @@ function ageGroup(city) {
             index = j;
         }
     }
-    console.log(maxValue)
-    console.log(index)
-    
+
+    // based on index value, return the correct age group
     switch (index) {
         case 0:
             return "0 to 4";
