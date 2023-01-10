@@ -1,3 +1,6 @@
+// CityCard.js provides a navigation of each location to obtain detailed statistics
+
+// imports
 import React from 'react';
 import { TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
 
