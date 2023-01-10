@@ -1,3 +1,7 @@
+// CityList.js uses the COVID-19 data for all the cities from Alameda County Open Data
+// The data will begin by providing a list of all cities in Alameda County
+
+// imports
 import React from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 
@@ -11,6 +15,7 @@ const styles = StyleSheet.create({
     },
 });
 
+// each city has a city card with more details about COVID-19
 const CityList = ({ navigation }) => {
     return (
         <View style={styles.container}>
