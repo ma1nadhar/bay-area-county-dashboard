@@ -1,5 +1,8 @@
+// HealthBadgeColorPos.js displays a RED screen when the COVID-19 test result is POSITIVE
+
+// imports
 import React from 'react';
-import { StyleSheet, Text, View, Image, Button } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
