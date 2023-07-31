@@ -10,6 +10,9 @@ Developed an Android and iOS COVID Dashboard to list the total COVID cases by ci
 &emsp;&emsp;&emsp;- Navigates between the Main COVID Dashboard Screen and other options                                                                           
 &emsp;&emsp;&emsp;- Options include COVID Statistics, Symptom Survey Questions, Health Badge Report, Q&A Discussion                                                    
 
+<img src="images/CitiesList.png" alt="CitiesList" width="300"/>
+<img src="images/CovidCasesResults.png" alt="CovidCasesResults" width="300"/>
+
 **CityList.js and CityCard.js and DetailList.js**     
 &emsp;&emsp;&emsp;- Uses the COVID-19 data for all the cities from Alameda County Open Data                                                                            
 &emsp;&emsp;&emsp;- Provides a list of all cities in Alameda County                                                                                                    
@@ -24,12 +27,17 @@ Developed an Android and iOS COVID Dashboard to list the total COVID cases by ci
 &emsp;&emsp;&emsp;- Uses one of the Hooks provided by React called useState                                                                       
 &emsp;&emsp;&emsp;- Unique and responsive card style implemented                                 
 
+<img src="images/HealthSurvey.png" alt="HealthSurvey" width="300"/>
+
 **Guidance.js and Resources.js and SurveyQuestions.js**     
 &emsp;&emsp;&emsp;- Guidance.js screen which provides the Q&A portion of the app                                                                               
 &emsp;&emsp;&emsp;- Provides the most common questions regarding COVID-19                                                                                               
 &emsp;&emsp;&emsp;- Resources.js screen which provides the COVID-19 resources                                                                                     
 &emsp;&emsp;&emsp;- SurveyQuestions.js screen where users take a symptom survey check                                                                           
 &emsp;&emsp;&emsp;- All questions are answered and submit btn is pressed, user is navigated to the previous screen       
+
+<img src="images/CovidNegative.png" alt="CovidNegative" width="300"/>
+<img src="images/CovidPositive.png" alt="CovidPositive" width="300"/>
 
 **HealthBadge.js and HealthBadgeColor.js and HealthBadgeColorPos.js**     
 &emsp;&emsp;&emsp;- Contains screen where a user shares there COVID-19 test result                                                                   
